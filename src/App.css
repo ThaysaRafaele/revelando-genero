@@ -9,10 +9,18 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 20px;
 }
 
 .gender-reveal-button {
   margin-top: 20px;
+  font-family: 'Pangolin', cursive;
+  background-color: #7b6237;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 /* .gender-reveal-text {
