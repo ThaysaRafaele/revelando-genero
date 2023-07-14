@@ -3,6 +3,18 @@
   padding: 20px;
 }
 
+.gender-reveal-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.gender-reveal-button {
+  margin-top: 20px;
+}
+
 .gender-reveal-text {
   color: #ff69b4;
 }
@@ -18,4 +30,9 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.gravida-image {
+  max-width: 60%;
+  height: auto;
 }

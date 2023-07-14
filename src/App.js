@@ -1,13 +1,17 @@
-import React from 'react';
-import GenderReveal from './components/GenderReveal';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import GenderRevealButton from './components/GenderRevealButton';
+import GenderRevealPage from './components/GenderRevealPage';
 import './App.css';
+
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Revelação de Gênero</h1>
-      <GenderReveal />
-    </div>
+    <Router>
+      <div className="App">
+        <Route exact path="/" component={GenderRevealButton} />
+        <Route exact path="/revelation" component={GenderRevealPage} />
+      </div>
+    </Router>
   );
 };
 
